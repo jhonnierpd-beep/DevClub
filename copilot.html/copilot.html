@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DG Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a1b9a, #d4af37);
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #ffe082;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #f3e5f5, #fffde7);
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #6a1b9a;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    .boton-agenda {
+      background: linear-gradient(270deg, #6a1b9a, #d4af37, #6a1b9a);
+      background-size: 600% 600%;
+      animation: gradientMove 8s ease infinite;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .boton-agenda:hover {
+      transform: scale(1.08);
+    }
+
+   
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">DG STUDIOS</div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Servicios</a>
+      <a href="#">Trabajos</a>
+      <a href="#">Sobre Nosotros</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>DG STUDIOS</h1>
+    <p>Cuidar de ti es nuestro mayor placer. Visítanos y obtén una experiencia nueva que mantenga tu autoestima siempre al 100%.</p>
+    <button class="boton-agenda">Agenda Aquí</button>
+  </section>
+
+
+</body>
+</html>

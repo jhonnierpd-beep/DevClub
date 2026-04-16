@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+}
+
+button {
+    background-color: #c51111;
+    width: 200PX;
+    height: 50PX;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo-irmaos {
+    height: 500px;
+    width: 433px;
+}
+
+.div-1 {
+    width: 40%;
+
+
+}
+
+body {
+    height: 100vh;
+
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+    /*espacio entre itens*/
+
+}
+.caixa-video{
+    z-index:-1;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+}

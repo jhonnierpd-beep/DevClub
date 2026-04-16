@@ -5,16 +5,18 @@
     box-sizing: border-box;
 
 }
+
 header {
     background: lightgray;
     padding: 14px;
     margin: 0px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 36px;
     color: #4B0082;
     cursor: pointer;
     word-spacing: 15px;
+
 }
 
 .palabra-sola {
@@ -23,42 +25,109 @@ header {
     word-spacing: 0;
 
 }
-h1{
+
+h1 {
+    width: 100%;
     font-weight: 800;
-    font-size: 72px;
+    font-size: 100px;
     color: #E6B7A9;
     font-style: italic;
+    text-decoration: underline;
+    text-shadow: 14px 7px 15px;
+    text-align: center;
 
 }
 
-.titulo{
-    text-decoration:underline;
-    text-shadow: 14px 7px 15px; 
+h3 {
+    color: #8a2be2a8;
+    width: 100%;
+    font-weight: 800;
+    font-size: 50px;
+    left: 13%;
+    right: 0;
+    position: absolute;
+    top: 500px;
 
 }
 
+.paragrafo {
+    padding: 4px;
+    margin: 36px 46px 0px 14px;
+    width: 58%;
+    text-align: justify;
+    font-weight: 700;
+    color: rgba(93, 93, 125, 1);
+    font-size: xx-large;
+}
 
-
-.container{
-     width: 100vw;
+.container {
+    width: 100vw;
     height: 100vh;
-}
-/* En tu archivo style.css */
-body {
-    background-image: url('./proyecto-diana-salon-belleza/copilot_image_1775835668496.jpeg'); /* Ruta de tu imagen */
-    background-size: cover;              /* Ajusta la imagen a toda la pantalla */
-    background-position: left;         /* Centra la imagen */
-    background-repeat: no-repeat;        /* Evita que la imagen se repita */
-    background-attachment: fixed;        /* Hace que el fondo sea fijo al hacer scroll */
-    height: 100vh;                       /* Asegura que el body ocupe toda la altura */
-    margin: 0;                           /* Elimina márgenes por defecto */
-             /* Elimina márgenes por defecto */
-    
+
 }
 
-  img{
-   
-    margin: 0% 0% 0% 64%;
-    height: 76vh;
-   display: block;
-  }
+img {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+section {
+    justify-content: space-around;
+    display: inline-block;
+}
+
+.caixa-video {
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    left: 26%;
+}
+
+.escrito {
+    padding: 0;
+    margin: 14px;
+    width: 50%;
+    margin: 14px;
+    display: block;
+}
+
+.logotipo {
+
+    position: absolute;
+    left: 317px;
+    top: 130px;
+    width: 528px;
+    padding: 52px;
+}
+
+button {
+    left: 20%;
+    position: absolute;
+    top: 578px;
+  background: linear-gradient(270deg, #6a1b9a, #d4af37, #6a1b9a);
+      background-size: 600% 600%;
+      animation: gradientMove 8s ease infinite;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+}
+ footer {
+      background: #6a1b9a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: -4px;
+    }
